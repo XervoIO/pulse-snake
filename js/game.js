@@ -24,14 +24,6 @@ pulse.ready(function() {
   });
   engine.scenes.addScene(gameScene);
 
-  var gotoScene = function(scene) {
-    if(scene === 'game') {
-
-    } else if(scene === 'menu') {
-
-    }
-  };
-
   engine.scenes.activateScene(gameScene);
   engine.scenes.activateScene(menuScene);
 
